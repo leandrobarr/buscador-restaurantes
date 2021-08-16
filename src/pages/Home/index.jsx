@@ -5,7 +5,7 @@ import MaterialIcon from '@material/react-material-icon';
 
 import logo from '../../assets/logo.svg';
 
-import { Container, Search, Logo, Wrapper, Map} from './styles';
+import { Container, Search, Logo, Wrapper, Map, CaroulselTitle } from './styles';
 
 const Home = () => {
     const [inputValue, setInputValue] = useState ('');
@@ -21,6 +21,7 @@ const Home = () => {
                     trailingIcon={<MaterialIcon role="button" icon = "search" />}>
                     <Input value = {inputValue} onChange = {(e) => setInputValue(e.target.value)} />
                 </TextField>
+                <CaroulselTitle>Na sua Área</CaroulselTitle>
             </Search>
         </Container>
         <Map />
