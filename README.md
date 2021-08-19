@@ -1,1 +1,2 @@
-[Readme-buscador.md](https://github.com/leandrobarr/buscador-restaurantes/files/7011495/Readme-buscador.md)
+<h1>Sistema web de busca de restaurantes</h1>
+Site para encontrar restaurantes usando Google Maps que consulta API do Google
